@@ -1,0 +1,36 @@
+#banner {
+    background: url('../images/main-banner.gif') repeat;
+    width: 1250px;
+    height: 197px;
+    margin: 0 auto;
+}
+.go_up {
+    float: right;
+    padding-right: 15px;
+}
+.pbold {
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+#center article {
+    margin: 3em 0;
+    padding: 20px;
+    text-shadow: 0 2px 0 black;
+    background-color: rgba(17, 22, 85, .6);
+}
+
+#center figure {
+    border: 3px solid #142830;
+    float: right;
+    height: 300px;
+    margin-left: 15px;
+    overflow: hidden;
+    width: 500px;
+}
+#center figure:hover {
+    -moz-box-shadow: 0 0 2px #4D7788;
+    -webkit-box-shadow: 0 0 2px #4D7788;
+    box-shadow: 0 0 2px #4D7788;
+}

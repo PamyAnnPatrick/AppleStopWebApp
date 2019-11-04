@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<!-- The new doctype -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Mini Apple Stop</title>
+    <link rel="icon" type="image/ico" href="../images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../styles/feedback.css">
+    <script>
+        function submitalert() {
+            alert("Feedback Submitted!");
+        }
+    </script>
+</head>
+
+<body class="home">
+    <header>
+        <a href="#title" alt="Apple products">
+            <section title="iPhone" id="banner"></section>
+        </a>
+
+        <nav class="clear" id="menu-nav">
+            <!-- The nav link semantically marks your main site navigation-->
+            <ul>
+                <li><a title="Home" href="../index.html">Home</a></li>
+                <li><a title="Products" href="">Products</a>
+                    <ul>
+                        <li><a title="MacBook" href="mac.html">MacBook</a></li>
+                        <li><a title="iPhone" href="table.html">iPhone</a>
+                            <ul>
+                                <li><a title="iPhone XS" href="table.html">iPhone XS</a></li>
+                                <li><a title="iPhone XR" href="table.html">iPhone XR</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Watch" href="watch.html">Watch</a></li>
+                    </ul>
+                </li>
+                <li><a title="Feedback" href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside id="left">
+            <nav>
+                <figure>
+                    <!--image source : https://www.shareicon.net/buttons-gross-home-button-house-symbol-icons-building-interface-682179-->
+                    <a href="../index.html" title="Home"><img src="../thumbnails/home.jpeg" alt="Home"></a>
+                    <figcaption>
+                        Home
+                    </figcaption>
+                </figure>
+                <figure>
+                    <!--image Source:https://www.apple.com/ca/mac/-->
+                    <a href="mac.html" title="MacBook"><img src="../thumbnails/mac.jpeg" alt="MacBook"></a>
+                    <figcaption>
+                        MacBook
+                    </figcaption>
+                </figure>
+                <figure>
+                    <!--image source: https://www.apple.com/ca/iphone/-->
+                    <a href="table.html" title="iPhone"><img src="../thumbnails/iphone.jpeg" alt="iPhone"></a>
+                    <figcaption>
+                        iPhone
+                    </figcaption>
+                </figure>
+                <figure>
+                    <!--image source:https://www.apple.com/ca/watch/-->
+                    <a href="watch.html" title="Watch"><img src="../thumbnails/watch.jpeg" alt="Watch"></a>
+                    <figcaption>
+                        Watch
+                    </figcaption>
+                </figure>
+                <figure>
+                    <!--Image source: https://feedbacklabs.org/the-core-principles-of-constituent-feedback/-->
+                    <a href="feedback.html" title="Feedback"><img src="../thumbnails/feedback.jpeg" alt="Feedback"></a>
+                    <figcaption>
+                        Feedback
+                    </figcaption>
+                </figure>
+            </nav>
+        </aside>
+        <section id="center">
+            <article>
+                <h3>Feedback Form</h3>
+                <form action="feedback.html" method="get" name="feedback_form" id="feedback_form">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required>
+                        <div class="clear"></div> <br />
+                        <label for="email">E-Mail:</label>
+                        <input type="email" name="email" id="email" autofocus required>
+                        <div class="clear"></div> <br />
+                        <label for="address">Address:</label>
+                        <textarea id="address" rows="5" cols="50" placeholder="Enter your Address"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>User Experience</legend>
+                        <label for="products">Products used:</label>
+                        <select name="products" id="products" size="3" multiple>
+                            <option value="mac">MacBook</option>
+                            <option value="iphone">iPhone</option>
+                            <option value="ipad">iPad</option>
+                            <option value="watch">Watch</option>
+                            <option value="accessories">Accessories</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <div class="clear"></div> <br />
+                        <label for="desired_products">Most desired product:</label>
+                        <select name="desired_products" id="desired_products">
+                            <optgroup label="MacBook">
+                                <option value="macbookPro">Macbook Pro</option>
+                                <option value="macAir">Macbook Air</option>
+                                <option value="macPro">Mac Pro</option>
+                            </optgroup>
+                           <optgroup label="iPhone">
+                                <option value="Xs">iPhone XS</option>
+                                <option value="Xr">iPhone XR</option>
+                                <option value="IPhone8">iPhone 8</option>
+                            </optgroup>
+                          <optgroup label="iPad">
+                                <option value="iPadPro">iPad Pro</option>
+                                <option value="iPadAir">iPad Air</option>
+                            </optgroup>
+                        <optgroup label="Other">
+                            <option value="watch">Apple Watch</option>
+                            <option value="accessories">Accessories</option>
+                            <option value="other">Others</option>
+                            </optgroup>        
+                        </select>
+                        <div class="clear"></div>
+                        <br />
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" rows="7" cols="50" placeholder="Enter your comments"></textarea>
+
+                    </fieldset>
+                    <fieldset id="buttons">
+                        <legend>Submit Your Feedback</legend>
+                        <input type="submit" onclick="submitalert()" id="submit" value="Submit">
+                        <input type="reset" id="reset" value="Reset">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+        <aside id="right">
+            <form action="feedback.html" method="get" name="Website_feedback" id="Website_feedback" tabindex="1">
+                <h3 class="form_heading">Website Feedback</h3>
+                <fieldset id="Website_Opinion">
+                    <legend> My Website is/was</legend>
+                    <input type="checkbox" name="fun" id="fun" value="F">
+                    <label for="fun">Fun to visit</label> <br>
+                    <input type="checkbox" name="well_design" id="well_design" value="D">
+                    <label for="well_design">Well Designed</label> <br>
+                    <input type="checkbox" name="color" id="color" value="C">
+                    <label for="color">Used Good colors</label> <br>
+                    <input type="checkbox" name="informative" id="informative" value="I">
+                    <label for="informative">Informative</label> <br>
+                </fieldset>
+                <fieldset id="Visit">
+                    <legend>Will you Visit my Site Again?</legend>
+                    <input type="radio" name="yes" id="yes" value="Y" checked>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yes" id="no" value="N">
+                    <label for="no">No</label>
+                    <div class="clear"></div> <br />
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" rows="5" cols="30" placeholder="Enter your comments"></textarea>
+
+                </fieldset>
+
+                <fieldset id="buttons">
+                    <legend>Submit Your Feedback</legend>
+                    <input type="submit" onclick="submitalert()" id="website_submit" value="Submit">
+                    <input type="reset" id="website_reset" value="Reset">
+                </fieldset>
+                <br>
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <div class="line"></div>
+        <p> <a href="https://www.conestogac.on.ca/" alt="Conestoga">Copyright &copy; 2019Conestoga</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+#banner {
+   /*image source:https://www.shutterstock.com/image-vector/feedback-concept-banner-icons-keywords-673129423 */
+       background: url('../images/feedback.png');
+    width: 1250px;
+    height: 197px;
+    margin: 0 auto;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px #800000;
+}
+
+/* the styles for the form */
+
+fieldset {
+    margin-bottom: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+legend {
+    color: white;
+    font-weight: bold;
+    font-size: 95%;
+    margin-bottom: .5em;
+}
+
+label {
+    float: left;
+    width: 12em;
+    text-align: right;
+}
+
+label, input, select {
+    font-size: 100%;
+}
+ input, select,textarea {
+    color: black;
+}
+
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+    input:required, input[required] {
+        border: 2px solid red;
+        color: #800000;
+    }
+
+    input:valid {
+        border: 1px solid black;
+    }
+
+    input:invalid {
+        box-shadow: none;
+        border: 2px solid red;
+        border: 2px solid red;
+        color: #800000;
+    }
+
+#buttons input {
+    width: 6em;
+    border-radius: 4px;
+    background: #2C1521;
+    color:white;
+}
+#Website_feedback label{
+    float:none;
+}
+#Website_feedback input {
+    width: auto;
+    margin-left: 2em;
+}
+.clear{
+    clear:both;
+}

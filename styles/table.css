@@ -1,0 +1,54 @@
+#banner {
+    background: url('../images/iphone-banner.gif') repeat-x;
+    width: 1250px;
+    height: 197px;
+    margin: 0 auto;
+}
+#iPhone-compare {
+    border: 2px double white;
+    border-collapse: collapse;
+    background-color: rgba(17, 22, 85, .6);
+    margin:10px;
+}
+#iPhone-compare caption{
+    font-size:2em;
+    font-weight:bolder;
+    padding:5px;
+}
+    #iPhone-compare th, td {
+        border: 1px solid white;
+        padding: .2em .7em;
+        text-align: left;
+        height:40px;
+    }
+    #iPhone-compare th {
+        background-color: black;
+        font-weight:bolder;
+    }
+.sub-table{
+    width:100%;
+}
+.buy {
+    width: 93%;
+    padding: 2px;
+    margin:10px 5px;
+    border: 2px solid rgb(135, 67, 96);
+}
+#right h3 {
+    margin: 10px 0 0 0;
+    font-weight:bolder;
+}
+.buy img{
+    height:250px;
+}
+    .buy a,
+    .buy a:visited {
+        color: white;
+        font:bold;
+        font-size:15px;
+        text-decoration: none;
+        outline: none;
+        text-align:center;
+    }
+
+
