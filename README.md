@@ -35,7 +35,7 @@ or
 To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click 'clone' button.
 
 
-# To register a project as a local Git repository
+# To register the project as a local Git repository
 
 Step 1) Create a folder in your local system
 
