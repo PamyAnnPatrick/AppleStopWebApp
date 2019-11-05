@@ -34,3 +34,22 @@ or
 
 To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click 'clone' button.
 
+
+# To register a project as a local Git repository
+
+Step 1) Create a folder in your local system
+
+Step 2) Then, perform the following command at your project root command prompt:
+
+
+git init
+
+
+This will create a .git folder at your project root and will allow you to start using Git in that repository.
+
+
+Step 3) Then, run the following command to clone the project to your local folder
+
+
+git clone https://github.com/PamyAnnPatrick/AppleStopWebApp.git
+
