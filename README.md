@@ -42,7 +42,7 @@ Step 1) Create a folder in your local system
 Step 2) Then, perform the following command at your project root command prompt:
 
 
-git init
+        git init
 
 
 This will create a .git folder at your project root and will allow you to start using Git in that repository.
@@ -51,5 +51,5 @@ This will create a .git folder at your project root and will allow you to start 
 Step 3) Then, run the following command to clone the project to your local folder
 
 
-git clone https://github.com/PamyAnnPatrick/AppleStopWebApp.git
+       git clone https://github.com/PamyAnnPatrick/AppleStopWebApp.git
 
