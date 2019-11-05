@@ -1,7 +1,7 @@
 # AppleStop
 A simple Web application using HTML5 and CSS3.
 
-# To open project on you system
+# To open run the project
 
 
 You can either run manually in your desktop by the following steps
