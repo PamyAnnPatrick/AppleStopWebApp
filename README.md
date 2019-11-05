@@ -1,7 +1,11 @@
 # AppleStopWebApp
 A simple Web application using HTML5 and CSS3
 
-#To open project on you system
+# To open project on you system
+
+
+You can either run manually in your desktop by the following steps
+
 
 1)Download all the files in the master branch to a folder.
 
@@ -9,7 +13,7 @@ A simple Web application using HTML5 and CSS3
 
               or
               
-Cilck here <a href="https://applestop.azurewebsites.net" target="_blank" rel="noopener noreferrer">Apple Stop.</a> or manually copy the below link
+1)Click here <a href="https://applestop.azurewebsites.net" target="_blank" rel="noopener noreferrer">Apple Stop.</a> or copy the below link
 
 
 https://applestop.azurewebsites.net/
