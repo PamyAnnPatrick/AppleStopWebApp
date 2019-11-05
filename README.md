@@ -1,7 +1,7 @@
 # AppleStop
 A simple Web application using HTML5 and CSS3.
 
-# To open run the project
+# How to run the project
 
 
 You can either run manually in your desktop by the following steps
@@ -35,7 +35,7 @@ Step 3)To clone the repository using HTTPS, under "Clone with HTTPS" https://git
 To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click 'clone' button.
 
 
-# To register the project as a local Git repository
+# How to register the project as a local Git repository
 
 Step 1) Create a folder in your local system
 
