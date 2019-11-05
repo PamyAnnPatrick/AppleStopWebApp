@@ -29,7 +29,7 @@ Step 2) Under the repository name 'AppleStopWebApp' , click Clone or download.
 Step 3)To clone the repository using HTTPS, under "Clone with HTTPS" https://github.com/PamyAnnPatrick/AppleStopWebApp.git, click 'clone' button. 
 
 
-or
+      or
 
 
 To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click 'clone' button.
