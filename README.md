@@ -4,7 +4,7 @@
 Apple stop is a static website using HTML5 and CSS3. It contain information about some apple products with some embedded video explaining some information related to apple products. It also has a feedback page along with some colourful pages implemented using HTML5 and CSS3. 
 
 
-You basically use any IDE, like, visual studio to edit the website pages. Even you can just use notepad to edit it.
+You can use IDE like, visual studio to edit the website pages. Even you can just use notepad to edit it.
 
 
 # How to run the project
