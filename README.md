@@ -19,12 +19,6 @@ Step 1) Download all the files in the master branch to a folder.
 
 Step 2) Open the index.html in any browser(Chrome preferred), you will be able to see the website
 
-  or
-              
-Step 1) Click here <a href="https://applestop.azurewebsites.net" target="_blank" rel="noopener noreferrer"> Apple Stop </a> OR copy the below link
-
-
-https://applestop.azurewebsites.net/
 
 # How to clone the repository
 
